@@ -103,12 +103,12 @@ ul{
 }
 
 a {
-    color: #ffffff; /* Цвет обычной ссылки */ 
-    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #ffffff; 
+    text-decoration: none; 
    }
    a:visited {
-    color: #ffffff; /* Цвет посещённой ссылки */
+    color: #ffffff; 
    } 
    a:hover {
-    color: #ffffff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    color: #ffffff; 
    }
