@@ -68,7 +68,8 @@ ul{
     .home{
         color:#FFF;
         text-shadow:0px 1px 2px #fff;
-        font-size:16px
+        font-size:16px;
+        border-bottom: 2px solid #ecf0f1;
     }
     #link1 {
         background:radial-gradient(at top,rgba(45,57,136,1) 0%, rgba(19,26,24,1) 100%);;
