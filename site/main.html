@@ -2,72 +2,99 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="owners" content="ASYS company" />
+		<meta name="General Director, Co-Founder" content="Alexandr Senkov" />
+		<meta name="Creative Director, Co-Founder" content="Yury Semenov" />
+		<meta name="IT&Design worker" content="Nikita 4epkasov" />
+		<meta name="IT worker" content="Sergey Tirishkin" />
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>  
 		<title>ASYS</title>
-		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 		<link href="resources\CSS\main.css" rel="stylesheet">	
 		<script src="resources\Scripts\jquery.js"></script>
-		<script src="resources\Scripts\main.js"></script>	
 		<script src="resources\Scripts\script.js"></script>	
-		<script>var str1,str2,str3,str4;</script>
+		<meta name="Resource-type" content="Document" />
+		<script>var str1,str2,str3,str4;		
+			var width = screen.width,
+			height = screen.height;
+		</script>
 	</head>
-	
+
 <body>
-	<div id="main_page">
+
+<!--<div id="pagepiling">
+	<div class="section" id="section1">
 		<div id="AlwaysOnTop">
-			<H1>ASYS</H1>
 			<ul id="navbar">
-				<li ><a href="" id="main">Главная</a></li>
-				<li ><a href="" id="news">Новости</a></li>
-				<li ><a href="" id="projects">Наши проекты</a></li>
-				<li ><a href="" id="order">Сделать заказ</a></li>
+				<div id="colors2"></div>
+				<li ><H1>ASYS</H1></li>
+				<li ><a href="#page1" id="main">Главная</a></li>
+				<li ><a href="#page2" id="news">Новости</a></li>
+				<li ><a href="#page3" id="projects">Наши проекты</a></li>
+				<li ><a href="#page4" id="order">Сделать заказ</a></li>
 			</ul>
 		</div>
 	</div>
-	<div id="news_page" class = "block">
+
+
+
+	<div class="section" id="section2">
 		<div id="AlwaysOnTop">
-			<H1>ASYS</H1>
 			<ul id="navbar">
-				<li ><a href="" id="main">Главная</a></li>
-				<li ><a href="" id="news">Новости</a></li>
-				<li ><a href="" id="projects">Наши проекты</a></li>
-				<li ><a href="" id="order">Сделать заказ</a></li>
+				<div id="colors3"></div>
+				<li ><H1>ASYS</H1></li>
+				<li ><a href="#page1" id="main">Главная</a></li>
+				<li ><a href="#page2" id="news">Новости</a></li>
+				<li ><a href="#page3" id="projects">Наши проекты</a></li>
+				<li ><a href="#page4" id="order">Сделать заказ</a></li>
+		</ul>
+		</div>
+	</div>	
+
+
+	<div class="section" id="section3">
+		<div id="AlwaysOnTop">
+			<ul id="navbar">
+				<li ><H1>ASYS</H1></li>
+				<li ><a href="#page1" id="main">Главная</a></li>
+				<li ><a href="#page2" id="news">Новости</a></li>
+				<li ><a href="#page3" id="projects">Наши проекты</a></li>
+				<li ><a href="#page4" id="order">Сделать заказ</a></li>
 			</ul>
 		</div>
 	</div>
-	<script>
-		str1 = jQuery('#main_page').clone();
-		str2 = jQuery('#news_page').clone();
-		$('#news_page').remove();
-	</script>
-	<div id="projects_page" class = "block">
+
+
+	<div id="order_page">
 		<div id="AlwaysOnTop">
-			<H1>ASYS</H1>
 			<ul id="navbar">
-				<li ><a href="" id="main">Главная</a></li>
-				<li ><a href="" id="news">Новости</a></li>
-				<li ><a href="" id="projects">Наши проекты</a></li>
-				<li ><a href="" id="order">Сделать заказ</a></li>
+				<li ><H1>ASYS</H1></li>
+				<li ><a href="#page1" id="main">Главная</a></li>
+				<li ><a href="#page2" id="news">Новости</a></li>
+				<li ><a href="#page3" id="projects">Наши проекты</a></li>
+				<li ><a href="#page4" id="order">Сделать заказ</a></li>
 			</ul>
+			</ul>
+			</div>
 		</div>
 	</div>
-	<script>
-		str3 = jQuery('#projects_page').clone();
-		$('#projects_page').remove();
-	</script>
-	<div id="order_page" class = "block">
-		<div id="AlwaysOnTop">
-			<H1>ASYS</H1>
-			<ul id="navbar">
-				<li ><a href="" id="main">Главная</a></li>
-				<li ><a href="" id="news">Новости</a></li>
-				<li ><a href="" id="projects">Наши проекты</a></li>
-				<li ><a href="" id="order">Сделать заказ</a></li>
-			</ul>
-		</div>
-	</div>
-	<script>
-		str4 = jQuery('#order_page').clone();
-		$('#order_page').remove();
-	</script>
+</div>
+-->
+<span class="logo">ASYS</span>	
+
+<ul>
+  <li><a href="#link1" class="home">Главная</a></li>
+  <li><a href="#link2">Новости</a></li>
+  <li><a href="#link3">Наши Проекты</a></li>
+  <li><a href="#link4">Сделать заказ</a></li>
+  <li><a href="#link5">Контакты</a></li>
+</ul>
+
+<div id="all-div">
+  <div id="link1">Главная</div>
+  <div id="link2">Новости</div>
+  <div id="link3">Наши Проекты</div>
+  <div id="link4">Сделать заказ</div>
+  <div id="link5">Контакты</div>
+</div>
 </body>
 </html>

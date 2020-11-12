@@ -1,34 +1,13 @@
-$(function(){
-    $('a[href=""]').click(function(){
-      return false;
-    });
+$(document).ready(function(){
+  $("ul li > a").click(function(){$("ul li > a").removeAttr("class");
+  $(this).addClass("home")});
+  $("ul li a").click(function(){var e=$(this.hash);
+    $("body,html").animate({scrollTop:e.offset().top},700);
+    return false
   });
-
-jQuery('document').ready(function(){
-    
-	$('#main').on('click',function(){
-        $('body').append(str1);
-        $('#order_page').remove();
-        $('#projects_page').remove();
-        $('#news_page').remove();
-})
-	$('#news').on('click',function(){
-		$('body').append(str2);
-        $('#order_page').remove();
-        $('#projects_page').remove();
-        $('#main_page').remove();
-})
-	$('#projects').on('click',function(){
-		$('body').append(str3);
-        $('#order_page').remove();
-        $('#news_page').remove();
-        $('#main_page').remove();
-})
-	$('#order').on('click',function(){
-		$('body').append(str4);
-        $('#projects_page').remove();
-        $('#news_page').remove();
-        $('#main_page').remove();
-})
-	
-    });
+  $(window).scroll(function(){if($(this).scrollTop()>500){
+    $(".top").fadeIn()}else{$(".top").fadeOut()}});
+    $(".top").click(function(){
+      $("body,html").animate({scrollTop:0},500);
+      return false
+    })})

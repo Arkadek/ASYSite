@@ -1,64 +1,100 @@
-#main_page {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(at top,rgba(45,57,136,1) 0%, rgba(19,26,24,1) 100%);
-    overflow: hidden;
-}  
-
-#news_page {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(at top,rgba(103,37,66,1) 0%, rgba(19,26,24,1) 100%);
-    overflow: hidden;
-}  
-
-#projects_page {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(at top,rgba(37,103,48,1) 0%, rgba(19,26,24,1) 100%);
-    overflow: hidden;
-}  
-
-#order_page {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(at top,rgb(168, 110, 22) 0%, rgba(19,26,24,1) 100%);
-    overflow: hidden;
-}  
-
-H1{
-	color: #FFFFFF;
-	font-size: 300%;
-	font-family: Calibri;
-	font-style: normal;
-    font-weight: normal;
-    padding: 0% 0.5%;
+*
+{margin:0;
+    padding:0
+}
+body{color:#FFF;
+    background:#222;
+    margin:0;
+    padding:0;
+    font-family:montserrat;
+    min-height:2000px;
 }
 
-#navbar {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	color: #fff;
-	padding: 0.5% 1%;
+span.logo{
+    font-family:Calibri;
+    position:fixed;
+    z-index:99999;
+    margin:25px 0 0 35px;
+    font-size: 200%;
+    color:#fff;
 }
-
-#navbar li { display: inline;
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    width: 20%;
+span.logo 
+    span{
+    color:#300
     }
-        
+ul{
+    text-align:center;
+    list-style:none;
+    padding:0;
+    margin:0;
+    height:73px;
+    position:fixed;
+    width:100%;
+    background:rgba(0,0,0,0.25);
+    top:0;
+    left:0;
+    z-index:1;
+    font-size: 200%;
+}
+    ul li{
+        display:inline-block;
+        cursor:pointer
+    }
+    ul li a{
+        text-decoration:none;
+        font-family:montserrat;
+        color:#fff;
+        display:block;
+        padding:27px 35px;
+        -webkit-transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease;
+        -o-transition:all 0.5s ease;
+        transition:all 0.5s ease;
+        font-size:14px;
+        font-weight:bold
+    }
+    ul li a:hover{color:#FFF;
+        text-shadow:0px 1px 1px #fff
+    }
+    #all-div{
+        width:100%;
+        height:100%;
+        position:absolute;
+        text-align:center;
+        font-size:200%;
+        font-weight:bold;
+        font-family:montserrat;
+    }
+    .home{
+        color:#FFF;
+        text-shadow:0px 1px 2px #fff;
+        font-size:16px
+    }
+    #link1 {
+        background:radial-gradient(at top,rgba(45,57,136,1) 0%, rgba(19,26,24,1) 100%);;
+        height:100%;
+        padding-top:100px
+    }
+    #link2{
+        background: radial-gradient(at top,rgba(103,37,66,1) 0%, rgba(19,26,24,1) 100%);
+        height:100%;
+        padding-top:100px
+    }
+    #link3{
+        background: radial-gradient(at top,rgba(37,103,48,1) 0%, rgba(19,26,24,1) 100%);
+        height:100%;
+        padding-top:100px
+    }
+    #link4{
+        background:radial-gradient(at top,rgb(168, 110, 22) 0%, rgba(19,26,24,1) 100%);
+        height:100%;
+        padding-top:100px
+    }
+    #link5{
+        background:#000;
+        height:100%;
+        padding-top:100px
+     }  
 * {
     margin: 0;
     padding: 0;
