@@ -69,10 +69,8 @@ body, .onepage-wrapper, html {
 }
 
 .onepage-pagination li a.active:before{
-  color:#FFF;
   text-shadow:0px 1px 2px #fff;
   font-size:16px;
-  border-bottom: 2px solid #ecf0f1;
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
