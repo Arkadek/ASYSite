@@ -60,5 +60,5 @@ if (cur_pos >= top && cur_pos <= bottom) {
     }
   }
 */
-
+$(".main").onepage_scroll();
 
