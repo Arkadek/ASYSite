@@ -13,36 +13,52 @@ $(document).ready(function(){
       return false
     })})
 
-/*var sections = $('section')
-    , nav = $('nav')
-    , nav_height = nav.outerHeight();
-  
-  $(window).on('scroll', function () {
-    var cur_pos = $(this).scrollTop();
-    
-    sections.each(function() {
-      var top = $(this).offset().top - nav_height,
-          bottom = top + $(this).outerHeight();
-      
-      if (cur_pos >= top && cur_pos <= bottom) {
-        nav.find('a').removeClass('class');
-        div.removeClass('class');
-        
-        $(this).addClass('home');
-        nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('home');
+    function parallaxScroll(evt) {
+      if (isFirefox) {
+        //Set delta for Firefox
+        delta = evt.detail * (-120);
+      } else if (isIe) {
+        //Set delta for IE
+        delta = -evt.deltaY;
+      } else {
+        //Set delta for all other browsers
+        delta = evt.wheelDelta;
       }
-    });
-  });
-  
-  nav.find('a').on('click', function () {
-    var $el = $(this)
-      , id = $el.attr('href');
     
-    $('html, body').animate({
-      scrollTop: $(id).offset().top - nav_height
-    }, 500);
+      if (ticking != true) {
+        if (delta <= -scrollSensitivitySetting) {
+          //Down scroll
+          ticking = true;
+          if (currentSlideNumber !== totalSlideNumber - 1) {
+            currentSlideNumber++;
+            nextItem();
+          }
+          slideDurationTimeout(slideDurationSetting);
+        }
+        if (delta >= scrollSensitivitySetting) {
+          //Up scroll
+          ticking = true;
+          if (currentSlideNumber !== 0) {
+            currentSlideNumber--;
+          }
+          previousItem();
+          slideDurationTimeout(slideDurationSetting);
+        }
+      }
+    }
     
-    return false;
-  });
+    var mousewheelEvent = isFirefox ? "DOMMouseScroll" : "wheel";
+    window.addEventListener(mousewheelEvent, _.throttle(parallaxScroll, 60), false);
+
+/* Функция отвечающая за подчеркивание раздела
+if (cur_pos >= top && cur_pos <= bottom) {
+      nav.find('a').removeClass('active');
+      sections.removeClass('active');
+      
+      $(this).addClass('active');
+      nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+    }
+  }
 */
+
 
