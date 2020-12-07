@@ -290,8 +290,6 @@
       el.moveDown();
     });
 
-    
-
     if(window.location.hash != "" && window.location.hash != "#1") {
       init_index =  window.location.hash.replace("#", "")
 
