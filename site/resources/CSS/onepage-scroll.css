@@ -30,42 +30,47 @@ body, .onepage-wrapper, html {
 
 .onepage-pagination {
   position: absolute;
-  right: 10px;
-  top: 50%;
-  z-index: 5;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  top: 0%;
 }
 .onepage-pagination li {
   padding: 0;
   text-align: center;
 }
+
 .onepage-pagination li a{
-  padding: 10px;
-  width: 4px;
-  height: 4px;
-  display: block;
-  
+  text-decoration:none;
+  font-family:montserrat;
+  text-align:center;
+  content: '';
+  padding:0;
+  margin:0;
+  color:#fff;
+  display:block;
+  padding:27px 35px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+  font-size:14px;
+  font-weight:bold
 }
 .onepage-pagination li a:before{
+  text-align:center;
   content: '';
+  padding:0;
+  margin:0;
   position: absolute;
   width: 4px;
   height: 4px;
-  background: rgba(0,0,0,0.85);
+  background: rgba(255,0,0,0);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+  text-decoration: underline;
 }
 
 .onepage-pagination li a.active:before{
-  width: 10px;
-  height: 10px;
-  background: none;
-  border: 1px solid black;
-  margin-top: -4px;
-  left: 8px;
+  text-shadow:0px 1px 1px #fff
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {

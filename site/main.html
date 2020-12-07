@@ -13,23 +13,30 @@
 		<script src="resources\Scripts\jquery.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="resources\Scripts\script.js"></script>	
-		<script type="text/javascript" src="resources\Scripts\jquery.onepage-scroll.js"></script>
 		<link href='resources\CSS\onepage-scroll.css' rel='stylesheet' type='text/css'>
 		<meta name="Resource-type" content="Document" />
 	</head>
 
-<body>
+<body class="viewing-page-1">
 	
-<span class="logo">ASYS</span>	
-
-<ul>
-  <li><a href="#link1" class="home">Главная</a></li>
-  <li><a href="#link2">Новости</a></li>
-  <li><a href="#link3">Наши Проекты</a></li>
-  <li><a href="#link4">Сделать заказ</a></li>
-  <li><a href="#link5">Контакты</a></li>
+<span class="logo">🤜🤛</span>
+<ul class="onepage-pagination">
+	<li><a data-index="1" href="#1">
+		Главная
+</a></li>
+	<li><a data-index="2" href="#2">
+		Новости
+	</a></li>
+	<li><a data-index="3" href="#3">
+		Наши Проекты
+	</a></li>
+	<li><a data-index="4" href="#4">
+		Сделать заказ
+	</a></li>
+	<li><a data-index="5" href="#5">
+		Контакты
+	</a></li>
 </ul>
-
 <div id="all-div" class="main">
   <section>
 	<div id="link1">
@@ -56,6 +63,7 @@
 	  Контакты
 	</div>
 </section>
+
 <script>
 	$(".main").onepage_scroll();
 </script>	
