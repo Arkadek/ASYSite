@@ -38,7 +38,6 @@ body, .onepage-wrapper, html {
 }
 
 .onepage-pagination li a{
-  text-decoration:none;
   font-family:montserrat;
   text-align:center;
   content: '';
@@ -70,7 +69,8 @@ body, .onepage-wrapper, html {
 }
 
 .onepage-pagination li a.active:before{
-  text-shadow:0px 1px 1px #fff
+  text-shadow:0px 1px 1px #fff;
+  text-decoration: underline;
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
