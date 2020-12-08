@@ -121,6 +121,14 @@ a {
     border-bottom: 2px solid #ecf0f1;
   }
 
-TextSize{
-    font-size:24px;
+.Primer{
+    background-color: #fff;
+    width: 1500px;
+    height: 100px;
+    font-family:montserrat;
+    font-size: 71px;
+    color: orange;
+    
+    text-align: center;
+    margin: 15%;
 }

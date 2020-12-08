@@ -383,6 +383,3 @@
 
 
 }(window.jQuery);
-
-
-
