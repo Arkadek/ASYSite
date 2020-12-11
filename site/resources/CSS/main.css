@@ -121,14 +121,71 @@ a {
     border-bottom: 2px solid #ecf0f1;
   }
 
-.Primer{
-    background-color: #fff;
-    width: 1500px;
-    height: 100px;
-    font-family:montserrat;
-    font-size: 71px;
-    color: orange;
-    
+.imageMainPlahka {
+    position: relative;
+}
+
+.OurProject img {
+    position: absolute;
+}
+
+.imageNordTech {
+    top: 200px;
+    width: 50%;
+    left: 10px;
+}
+
+.imageProject2 {
+    top: 200px;
+    width: 50%;
+}
+
+.imageProject3 {
+    top: 10px;
+    width: 50%;
+}
+.imageProject4 {
+    top: 10px;
+    width: 50%;
+}
+
+h2 {
+    position: absolute;
+    top: 180px;
+    width: 65%;
+}
+
+h2 span {
+    width: 333px;
+    height: 167px;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 70px;
+    color: #46649a;
     text-align: center;
-    margin: 15%;
+}
+
+p {
+    position: absolute;
+    top: 260px;
+    width: 64%;
+    height: 300px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+figcaption {
+    position: absolute;
+    top: 180px;
+    width: 133%;
+    height: 167px;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
 }
