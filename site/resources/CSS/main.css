@@ -192,27 +192,7 @@ a {
 }
 
 .project_development1 {
-    position: relative;
-    width: 100%;
-    top: 11px;
-    height: auto;
-    right: 25%;
-}
-
-.project_development2 {
-    position: relative;
-    width: 100%;
-    bottom:900px;
-    height: auto;
-    left:23%;
-}
-
-.project_development3 {
-    position: relative;
-    width: 100%;
-    bottom: 2120px;
-    height: auto;
-    left: 23%;
+    text-align: center;
 }
 
 .project_noedtech {
@@ -224,16 +204,7 @@ a {
 }
 
 .noedtech_text {
-    position: relative;
-    width: 100%;
-    bottom: 2750px;
-    line-height: 60px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 300;
-    font-style: italic;
-    height: auto;
-    right:371px;
+	text-align: center;
 }
 
 .section-makeorder {
@@ -376,17 +347,18 @@ a {
 
 .makeorder_button {
     position: relative;
-    bottom: 8580px;
-    color: #fff; /* ���� ������ */
-    text-decoration: none; /* ������� ������������� � ������ */
+    bottom: 500px;
+    color: #fff; 
+    text-decoration: none; 
     border-radius: 22px;
     font-family: Montserrat;
     font-style: italic;
     font-size: 34px;
-    user-select: none; /* ������� ��������� ������ */
+    user-select: none; 
     background: rgb(64,199,129);
     padding: .8em 1em calc(.8em + 3px);
-    outline: none; /* ������� ������ � Mozilla */
+    outline: none; 
+	
 }
 
 .makeorder_button:hover {
@@ -527,4 +499,26 @@ a {
     min-width: 480px;
     top: 40%;
     left: 29%;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.images {
+  justify-content: space-around;
+}
+
+@media (max-width: 1920px) {
+  .images {
+	padding-top: 2%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  img {
+    max-width: 100%;
+  }
 }
