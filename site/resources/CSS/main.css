@@ -527,4 +527,45 @@ a {
     min-width: 480px;
     top: 40%;
     left: 29%;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.images {
+  justify-content: space-around;
+}
+
+@media (max-width: 1920px) {
+  .images {
+	padding-top: 2%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+.photo {
+    display: inline-block; 
+    position: relative; 
+   }
+   .photo:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 30%; top: 30%; 
+    z-index: 1; 
+    font-family: montserrat;
+    font-size: 14px; 
+    padding: 5px 10px; 
+    text-shadow:black 2px 3px 4px;
+   }
+>>>>>>> parent of 8720524... www
