@@ -124,14 +124,12 @@ a {
     font-size:16px;
     border-bottom: 2px solid #ecf0f1;
   }
-.section-main {
+  .section-main {
     display: block;
-    position: relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
-
 }
 
 .section-main__content {
@@ -139,57 +137,10 @@ a {
 }
 
 .section-main_img {
-    width: 1900px; 
-    height: 200px;
-}
-
-.mainpagetitle {
-    margin: 0 35px;
-    position: fixed;
-    padding: 100px;
-    color: #46649a;
-    left: 11%;
-    font-size:50px;
-    font-family: Open Sans;
-    font-weight: bold;
-}
-
-.mainpagetitles {
-    margin: 0 35px;
-    position: fixed;
-    padding: 100px;
-    color: #ffffff;
-    left: 45%;
-    font-size: 50px;
-    font-family: Open Sans;
-    font-weight: bold;
-}
-
-.mainpagesubtite {
-    position: fixed;
-    padding: 180px;
-    width:850px;
-    margin:0 49px;
-    line-height: 60px;
-    color: #000000;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.mainpagesubtiteles {
-    position: fixed;
-    padding: 180px;
-    width: 700px;
-    margin: 0 130px;
-    line-height: 60px;
-    right:10px;
-    color: #000000;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
+    position:center;
+    min-width:1080px;
+    max-height:1920px;
+    padding-top:50px;
 }
 
 .section-news {
