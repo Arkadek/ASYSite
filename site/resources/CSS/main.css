@@ -508,7 +508,8 @@ a {
 	 font-size: 65%;
  }
  H113{
-	 font-size: 60%;
+     font-size: 60%;
+     font-style: italic;
  }
 .row {
   display: flex;
