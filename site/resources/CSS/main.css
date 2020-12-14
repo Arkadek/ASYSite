@@ -531,3 +531,31 @@ a {
 	padding-top: 5%;
   }
 }
+
+.photo {
+    display: inline-block; 
+    position: relative; 
+   }
+   .photo:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 30%; top: 30%; 
+    z-index: 1; 
+    font-family: montserrat;
+    font-size: 14px; 
+    padding: 5px 10px; 
+    text-shadow:black 2px 3px 4px;
+   }
+
+
+.ul_contact{
+    display:inline-block;
+    cursor:pointer;
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    max-width: 1920px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
