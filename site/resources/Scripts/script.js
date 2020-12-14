@@ -384,9 +384,3 @@
 
 }(window.jQuery);
 
-(function(){
-  var button = document.getElementById('makeorder_button');
-  button1.onclick = function() {
-    alert("усхрю");
-  }
-})();
