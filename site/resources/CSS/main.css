@@ -135,8 +135,8 @@ a {
 }
 
 .section-main_img {
-    width: 100%; 
-    height: auto;
+    width: 1900px; 
+    height: 200px;
 }
 
 .mainpagetitle {
@@ -429,16 +429,16 @@ a {
 .makeorder_button {
     position: relative;
     bottom: 8580px;
-    color: #fff; /* цвет текста */
-    text-decoration: none; /* убирать подчёркивание у ссылок */
+    color: #fff; /* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    text-decoration: none; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
     border-radius: 22px;
     font-family: Montserrat;
     font-style: italic;
     font-size: 34px;
-    user-select: none; /* убирать выделение текста */
+    user-select: none; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
     background: rgb(64,199,129);
     padding: .8em 1em calc(.8em + 3px);
-    outline: none; /* убирать контур в Mozilla */
+    outline: none; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ Mozilla */
 }
 
 .makeorder_button:hover {
@@ -555,7 +555,7 @@ a {
 .section-contact_img_3 {
     position: relative;
     padding: 11px;
-    width: 100%;
+    width: 1900px;
     min-width: 1080px;
     max-width: 1920px;
     bottom: 976px;
