@@ -192,27 +192,7 @@ a {
 }
 
 .project_development1 {
-    position: relative;
-    width: 100%;
-    top: 11px;
-    height: auto;
-    right: 25%;
-}
-
-.project_development2 {
-    position: relative;
-    width: 100%;
-    bottom:900px;
-    height: auto;
-    left:23%;
-}
-
-.project_development3 {
-    position: relative;
-    width: 100%;
-    bottom: 2120px;
-    height: auto;
-    left: 23%;
+    text-align: center;
 }
 
 .project_noedtech {
@@ -224,18 +204,13 @@ a {
 }
 
 .noedtech_text {
-    position: relative;
-    width: 100%;
-    bottom: 2750px;
-    line-height: 60px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 300;
-    font-style: italic;
-    height: auto;
-    right:371px;
+	text-align: center;
+	margin: 0 100px;
 }
-
+.kostili_text {
+	text-align: center;
+	margin: 0 20px;
+}
 .section-makeorder {
     display: block;
     box-sizing: border-box;
@@ -251,7 +226,7 @@ a {
 .makeorderheading {
     font-size: 60px;
     font-style: italic;
-    margin: 0 400px;
+    
 }
 
 .makeordertitle_1 {
@@ -376,17 +351,18 @@ a {
 
 .makeorder_button {
     position: relative;
-    bottom: 8580px;
-    color: #fff; /* ���� ������ */
-    text-decoration: none; /* ������� ������������� � ������ */
+    bottom: -50px;
+    color: #fff; 
+    text-decoration: none; 
     border-radius: 22px;
     font-family: Montserrat;
     font-style: italic;
     font-size: 34px;
-    user-select: none; /* ������� ��������� ������ */
+    user-select: none; 
     background: rgb(64,199,129);
     padding: .8em 1em calc(.8em + 3px);
-    outline: none; /* ������� ������ � Mozilla */
+    outline: none; 
+	
 }
 
 .makeorder_button:hover {
@@ -527,12 +503,13 @@ a {
     min-width: 480px;
     top: 40%;
     left: 29%;
-<<<<<<< HEAD
 }
-=======
-}
-
-
+ H112{
+	 font-size: 65%;
+ }
+ H113{
+	 font-size: 60%;
+ }
 .row {
   display: flex;
   flex-direction: row;
@@ -551,21 +528,6 @@ a {
   }
   img {
     max-width: 100%;
+	padding-top: 5%;
   }
 }
-
-.photo {
-    display: inline-block; 
-    position: relative; 
-   }
-   .photo:hover::after {
-    content: attr(data-title); 
-    position: absolute; 
-    left: 30%; top: 30%; 
-    z-index: 1; 
-    font-family: montserrat;
-    font-size: 14px; 
-    padding: 5px 10px; 
-    text-shadow:black 2px 3px 4px;
-   }
->>>>>>> parent of 8720524... www
