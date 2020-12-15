@@ -357,19 +357,10 @@
             case 40:
               if (tag != 'input' && tag != 'textarea') el.moveDown()
             break;
-            case 32: //spacebar
-              if (tag != 'input' && tag != 'textarea') el.moveDown()
-            break;
-            case 33: //pageg up
-              if (tag != 'input' && tag != 'textarea') el.moveUp()
-            break;
-            case 34: //page dwn
-              if (tag != 'input' && tag != 'textarea') el.moveDown()
-            break;
-            case 36: //home
+            case 36:
               el.moveTo(1);
             break;
-            case 35: //end
+            case 35:
               el.moveTo(total);
             break;
             default: return;
